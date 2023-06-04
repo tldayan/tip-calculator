@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TIP.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="logo" src="./images/logo.svg" alt="">
+    <div class="main_container">
+        <form>
+            <div class="bill_container">
+                <p class="titles">Bill</p>
+                <p class="bill_string_notice">Numbers Only</p>
+                <input class="bill_amount_feild" type="text" placeholder="0" maxlength="6">
+                <img class="dollor_icon" src="./images/icon-dollar.svg" alt="">
+            </div>
+            <div class="tip_selection_contaner">
+                <p class="titles">Select Tip %</p>
+                <div class="tip_percent_container">
+                    <button class="five tip">5%</button>
+                    <button class="ten tip">10%</button>
+                    <button class="fifteen tip">15%</button>
+                    <button class="twentyfive tip">25%</button>
+                    <button class="fifty tip">50%</button>
+                    <input class="custom_tip_feild tip" type="text" placeholder="Custom">
+                </div>
+            </div>
+            <div class="people_container">
+                <p class="titles">Number of People</p>
+                <p class="person_string_notice">Numbers Only</p>
+                <input class="number_of_people_feild" type="text" placeholder="0" maxlength="4">
+                <img class="person_icon" src="./images/icon-person.svg" alt="">
+            </div>
+
+        </form>
+        <div class="tip_result_container">
+            <div class="tip_amount_text_container">
+                <div class="tip_amount_text">
+                    <p class="result_title">Tip Amount</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div class="tip_amount_container">
+                    <p class="tip_amount">$0.00</p>
+                </div>
+            </div>
+            <div class="total_amount_text_container">
+                <div class="total_amount_text">
+                    <p class="result_title">Total</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div class="total_amount_container">
+                    <p class="total_amount">$0.00</p>
+                </div>
+            </div>
+            <button class="reset_btn">RESET</button>
+        </div>
+        
+    </div>
+    <div class="attribution" >Challenge by <a target="_blank" class="frontendmentor" href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>. Coded by <a class="author" href="https://github.com/tldayan">TL Dayan</a></div>
+    <script src="tip.js"></script>
+</body>
+
+</html>

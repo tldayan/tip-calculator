@@ -1,9 +1,8 @@
 # Tip Calculator App
 
-
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
-This project represents my solution for the Tip Calculator App challenge provided by [Frontend Mentor](https://www.frontendmentor.io/). The challenge aimed to create an interactive tip calculator that allows users to calculate the tip amount based on the bill and service quality.
+This project is my solution for the Tip Calculator App challenge provided by [Frontend Mentor](https://www.frontendmentor.io/). The challenge aimed to create an interactive tip calculator that allows users to calculate the tip amount based on the bill and service quality.
 
 ## Overview
 
